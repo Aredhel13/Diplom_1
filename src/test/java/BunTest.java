@@ -9,7 +9,7 @@ import praktikum.Bun;
 public class BunTest {
     private final String name;
     private final float price;
-    Bun bun;
+    private Bun bun;
 
     public BunTest(String name, float price) {
         this.name = name;
