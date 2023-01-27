@@ -20,7 +20,17 @@ public class BunTest {
     public static Object[][] dataForTest() {
         return new Object[][]{
                 {"Булочка без кунжута", 50},
-                {"Булочка с кунжутом", 60.6f}
+                {"!@#$%^&*()_+", 34f},
+                {"Bun", 43f},
+                {"Bun56", 43f},
+                {"  gfd", 53f},
+                {"fghjklasdfghjklwErtyuiytgtfgfdfghjklasdfghjklwertyuiytgtfgfdfghjklasdfghjklwertyuiytgtfgfdfghjklasdfghjklwertyuiytgtfgfd", 100f},
+                {null, 43f},
+                {"", 10},
+                {"Булочка с кунжутом", 3.4e+38f},
+                {"Булочка", 3.4e-38f},
+                {"Булочка", -3.4e+38f},
+                {"Булочка", 0},
         };
     }
 
